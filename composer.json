@@ -1,0 +1,20 @@
+{
+    "name": "thefunpower/device",
+    "type": "library",
+    "description": "device",
+    "keywords": ["php"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "kenken"
+        }
+    ],
+    "require": { 
+        "matomo/device-detector": "^6"
+    }, 
+    "autoload": { 
+        "files": [ 
+            "./helper.php"
+        ]
+    }
+}
